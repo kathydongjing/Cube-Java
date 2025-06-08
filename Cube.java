@@ -1,5 +1,5 @@
-/* 
 public class Cube {
+//the name of class must match the name of file 
     
     //variables
     private int height;
@@ -21,30 +21,10 @@ public class Cube {
         System.out.println(height*width*length);
     }
 }
-*/
+
 
 //a class (Cube is a class) is a blueprint for creating objects in java
 //class defines object behaviour (reusable)
 //main runs the program 
 
 
-
-
-public class Cube {
-
-    private int height; 
-    private int width; 
-    private int length; 
-
-    public Cube(int side){
-        height = side;
-        width = side; 
-        length = side;
-    }
-
-    public void findVolume() {
-        System.out.print(length*width*height);
-    }
-
-
-}
